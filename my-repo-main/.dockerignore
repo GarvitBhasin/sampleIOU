@@ -1,0 +1,18 @@
+.git
+.github
+docs
+.gradle
+build
+bin
+data
+*.db
+*.tmp
+.env
+.env.*
+frontend/node_modules
+frontend/dist
+src/main/resources/web
+.idea
+*.iml
+README.md
+CPEN LOGO.png

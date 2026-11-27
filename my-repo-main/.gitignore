@@ -1,0 +1,16 @@
+.gradle/
+build/
+bin/
+*.class
+*.tmp
+*.db
+data/
+frontend/node_modules/
+frontend/dist/
+src/main/resources/web/
+.env
+.env.*
+!.env.example
+.idea/
+*.iml
+.DS_Store

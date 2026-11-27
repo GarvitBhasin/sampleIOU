@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: iou
+    runtime: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: IOU_REQUIRE_DATABASE
+        value: "true"
+      - key: DATABASE_URL
+        sync: false
